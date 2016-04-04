@@ -7,19 +7,19 @@
 *.wav binary
 
 # Git files
-.gitignore text
-.gitattributes text
+.gitignore text eol=lf
+.gitattributes text eol=lf
 
 # Script files
 *.cs text eol=crlf
 
 # Unity-generated files
-*.anim text
-*.asset text
-*.controller text
-*.mat text
-*.meta text
-*.physicsMaterial2D text
-*.prefab text
-ProjectVersion.txt text
-*.unity text
+*.anim text eol=lf
+*.asset text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.physicsMaterial2D text eol=lf
+*.prefab text eol=lf
+ProjectVersion.txt text eol=lf
+*.unity text eol=lf
