@@ -1,3 +1,9 @@
+/*
+ * Author: Scott Goodrow
+ * http://www.thewildeternal.com/2015/08/31/devlog-force-component-order/
+ * Modified by Soullesswaffle (L77, L96)
+ */
+
 using UnityEngine;
 using UnityEditor;
 using System.Linq;
