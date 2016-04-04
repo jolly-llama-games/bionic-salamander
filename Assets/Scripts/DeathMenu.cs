@@ -14,7 +14,7 @@ public class DeathMenu : MonoBehaviour {
 
     public void RestartGame ()
     {
-        gameManager.Reset();
+        gameManager.FinishReset();
     }
 
     public void MainMenu ()

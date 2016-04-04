@@ -144,7 +144,7 @@ public class PlayerController : MonoBehaviour, IResettable {
             // Trigger OnDeath event
             if (OnDeath != null)
                 OnDeath();
-            gameManager.RestartGame();
+            gameManager.Die();
         }
     }
 

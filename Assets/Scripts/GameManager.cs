@@ -29,21 +29,25 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 	    if (Input.GetKeyDown(KeyCode.R) && !resetting)
         {
-            RestartGame();
+            resetting = true;
+            FinishReset();
         }
 	}
 
-    public void RestartGame ()
+    public void Die ()
+    {
+        StartReset();
+    }
+
+    public void StartReset()
     {
         resetting = true;
         scoreManager.scoreIncreasing = false;
         player.gameObject.SetActive(false);
         deathMenu.gameObject.SetActive(true);
-
-        //StartCoroutine("RestartGameCo");
     }
 
-    public void Reset()
+    public void FinishReset()
     {
         deathMenu.gameObject.SetActive(false);
         platformGenerator.position = platformStartPoint;
