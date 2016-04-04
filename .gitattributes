@@ -10,6 +10,10 @@
 .gitignore text eol=lf
 .gitattributes text eol=lf
 
+# Project files
+*.md text eol=lf
+LICENSE text eol=lf
+
 # Script files
 *.cs text eol=crlf
 
