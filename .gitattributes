@@ -6,6 +6,13 @@
 *.png binary
 *.wav binary
 
+# Git files
+.gitignore text
+.gitattributes text
+
+# Script files
+*.cs text eol=crlf
+
 # Unity-generated files
 *.anim text
 *.asset text
@@ -16,6 +23,3 @@
 *.prefab text
 ProjectVersion.txt text
 *.unity text
-
-# Script files
-*.cs text eol=crlf
