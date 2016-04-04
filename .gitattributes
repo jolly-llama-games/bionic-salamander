@@ -1,0 +1,21 @@
+# Default behavior
+* text=lf
+
+# Binary files
+*.jpg binary
+*.png binary
+*.wav binary
+
+# Unity-generated files
+*.anim text
+*.asset text
+*.controller text
+*.mat text
+*.meta text
+*.physicsMaterial2D text
+*.prefab text
+ProjectVersion.txt text
+*.unity text
+
+# Script files
+*.cs text eol=crlf
